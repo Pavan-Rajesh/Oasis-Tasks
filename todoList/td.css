@@ -27,7 +27,7 @@ body {
     font-size: 25px;
     font-weight: 400;
     background-color: white;
-
+    border: 5px double rgb(95, 128, 31)
 }
 
 
@@ -43,6 +43,11 @@ body {
 
 }
 
+#add-task:active {
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
 
 .delete-button {
     padding: 10px 20px;
@@ -55,6 +60,11 @@ body {
     margin-left: 10px;
     box-shadow: 2px 2px white;
 
+}
+
+.delete-button:active {
+    box-shadow: none;
+    transform: translate(2px, 2px);
 }
 
 .task-container {

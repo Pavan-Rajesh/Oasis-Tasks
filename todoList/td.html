@@ -29,7 +29,7 @@
         addTask.addEventListener('click', (e) => {
             const taskText = taskElement.value;
             if (taskText === "") {
-                alert('it shouldnt be empty')
+                alert('task shouldnt be empty')
                 exit(0);
             }
             const html = `<div id=${numberOfItems} class="task-container"><h4 class="task-name"> ${taskText}</h4><button class="delete-button" onclick='deleteTask(${numberOfItems})'>delete</button></div>`;
